@@ -79,7 +79,7 @@ public class MapaRumania {
         //Fagaras
         HashMap<String, Integer> coneccionesDeFagaras = new HashMap<>();
         coneccionesDeFagaras.put("Sibiu", 99);
-        coneccionesDeFagaras.put("Bucharest", 211);
+        coneccionesDeFagaras.put("Bucarest", 211);
         mapaRumania.put("Fagaras", coneccionesDeFagaras);
         //Pitesti
         HashMap<String, Integer> coneccionesDePitesti = new HashMap<>();
@@ -87,13 +87,13 @@ public class MapaRumania {
         coneccionesDePitesti.put("Craiova", 138);
         coneccionesDePitesti.put("Bucarest", 101);
         mapaRumania.put("Pitesti", coneccionesDePitesti);
-        //Bucharest
+        //Bucarest
         HashMap<String, Integer> coneccionesDeBucarest = new HashMap<>();
         coneccionesDeBucarest.put("Fagaras", 211);
         coneccionesDeBucarest.put("Pitesti", 101);
         coneccionesDeBucarest.put("Giurgiu", 90);
         coneccionesDeBucarest.put("Urziceni", 85);
-        mapaRumania.put("Bucharest", coneccionesDeBucarest);
+        mapaRumania.put("Bucarest", coneccionesDeBucarest);
         //Giurgiu
         HashMap<String, Integer> coneccionesDeGiurgiu = new HashMap<>();
         coneccionesDeGiurgiu.put("Bucarest", 90);
